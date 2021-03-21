@@ -3,7 +3,7 @@ import './index.less'
 function App() {
   return (
     <div className="App">
-     <h1>Mary & Will</h1>
+      <h1 className='title'>Mary <span>and</span> Will</h1>
     </div>
   );
 }

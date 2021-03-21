@@ -1,4 +1,4 @@
-import './App.css';
+import './index.less'
 
 function App() {
   return (

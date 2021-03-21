@@ -11,31 +11,31 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Col className='title' span={8}>
+        <Col className='subtitle' span={8}>
           Welcome Clambake
         </Col>
-        <Col className='title' span={8}>
+        <Col className='subtitle' span={8}>
           Wedding
         </Col>
-        <Col className='title' span={8}>
-          Beach <span className='subtitle'>and</span> Goodbyes
+        <Col className='subtitle' span={8}>
+          Beach <span>and</span> Goodbyes
         </Col>
       </Row>
       <Row>
-        <Col className='title' span={12}>Where <span className='subtitle'>to</span> Stay</Col>
-        <Col className='title' span={12}>Getting There</Col>
+        <Col className='subtitle' span={12}>Where <span>to</span> Stay</Col>
+        <Col className='subtitle' span={12}>Getting There</Col>
       </Row>
       <Row>
-        <Col className='title' span={12}>Our Story</Col>
-        <Col className='title' span={12}>Registry</Col>
+        <Col className='subtitle' span={12}>Our Story</Col>
+        <Col className='subtitle' span={12}>Registry</Col>
       </Row>
       <Row>
-        <Col className='title' span={12}>Request <span className='subtitle'>a</span> Song</Col>
-        <Col className='title' span={12}>Share <span className='subtitle'>a</span> Memory</Col>
+        <Col className='subtitle' span={12}>Request <span>a</span> Song</Col>
+        <Col className='subtitle' span={12}>Share <span>a</span> Memory</Col>
       </Row>
       <Row>
-        <Col className='title' span={12}>Things <span className='subtitle'>to</span> Do <span className='subtitle'>ongit</span> Cape Cod</Col>
-        <Col className='title' span={12}>COVID-19</Col>
+        <Col className='subtitle' span={12}>Things <span>to</span> Do <span>on</span> Cape Cod</Col>
+        <Col className='subtitle' span={12}>COVID-19</Col>
       </Row>
     </div>
   );

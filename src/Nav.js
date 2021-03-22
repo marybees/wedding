@@ -19,6 +19,7 @@ const Nav = () => {
             alt="Mary and Will's house"
             width="200"
           ></img>
+          {/* <h2>Mary <span>and</span> Will</h2> */}
         </Link>
       }
       extra={[

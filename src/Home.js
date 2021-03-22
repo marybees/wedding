@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Row, Col, Card } from 'antd';
 
 function App() {
@@ -46,34 +47,34 @@ function App() {
       </Row>
       <Row>
         <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-          <h2>Where <span>to</span> Stay</h2>
+          <Link to='/accommodation'><h2>Where <span>to</span> Stay</h2></Link>
           </Card.Grid>
         <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-          <h2>Getting There</h2>
+          <Link to='/directions'><h2>Getting There</h2></Link>
           </Card.Grid>
       </Row>
       <Row>
         <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-          <h2>Our Story</h2>
+          <Link to='/our-story'><h2>Our Story</h2></Link>
         </Card.Grid>
         <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-          <h2>Registry</h2>
-        </Card.Grid>
-      </Row>
-      <Row>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-          <h2>Request <span>a</span> Song</h2>
-        </Card.Grid>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-          <h2>Share <span>a</span> Memory</h2>
+          <Link to='/registry'><h2>Registry</h2></Link>
         </Card.Grid>
       </Row>
       <Row>
         <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-          <h2>Things <span>to</span> Do <span>on</span> Cape Cod</h2>
+          <Link to='/request-a-song'><h2>Request <span>a</span> Song</h2></Link>
         </Card.Grid>
         <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
-            <h2>COVID-19</h2>
+          <Link to='/share-a-memory'><h2>Share <span>a</span> Memory</h2></Link>
+        </Card.Grid>
+      </Row>
+      <Row>
+        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+          <Link to='/activities'><h2>Things <span>to</span> Do <span>on</span> Cape Cod</h2></Link>
+        </Card.Grid>
+        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+            <Link to='/covid-19'><h2>COVID-19</h2></Link>
         </Card.Grid>
       </Row>
     </div>

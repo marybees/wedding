@@ -28,16 +28,22 @@ function App() {
           <Route path='/directions'>
             <Directions/>
           </Route>
-          <Route path='/memories'>
+          <Route path='/share-a-memory'>
             <Memory/>
           </Route>
           <Route path='/registry'>
             <Registry/>
           </Route>
-          <Route path='/songs'>
+          <Route path='/request-a-song'>
             <Song/>
           </Route>
-          <Route path='/story'>
+          <Route path='/our-story'>
+            <Story/>
+          </Route>
+          <Route path='/activities'>
+            <Story/>
+          </Route>
+          <Route path='/covid-19'>
             <Story/>
           </Route>
         </Switch>

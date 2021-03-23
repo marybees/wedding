@@ -52,7 +52,7 @@ function Accommodation() {
         <div style={{padding: '8rem 2rem 2rem 2rem'}}>
             <Alert
                 message='Book Your Room ASAP'
-                description='Due to the holiday weekend, hotels are booking up quickly. Please reserve your room at your earliest convenience.'            type="warning"
+                description="It would be a total bummer if you couldn't make it to our wedding because you forgot to book your room! Cape Cod is a popular vacation destination and due to the holiday weekend, hotels are booking up quickly. Please reserve your room at your earliest convenience!"            type="warning"
                 style={{ marginBottom: '2rem'}}
                 showIcon
                 closable

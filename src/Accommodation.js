@@ -49,7 +49,7 @@ function Accommodation() {
     ]
 
     return (
-        <div style={{padding: '10rem 2rem 2rem 2rem'}}>
+        <div style={{padding: '8rem 2rem 2rem 2rem'}}>
             <Alert
                 message='Book Your Room ASAP'
                 description='Due to the holiday weekend, hotels are booking up quickly. Please reserve your room at your earliest convenience.'            type="warning"
@@ -57,6 +57,7 @@ function Accommodation() {
                 showIcon
                 closable
             />
+            <h1 className='pageTitle'>Where <span>to</span> Stay</h1>
             <List
                 itemLayout="vertical"
                 size="large"

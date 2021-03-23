@@ -14,10 +14,10 @@ function Directions() {
                     <p>20 Roos Road, East Sandwich, MA 02537</p>
                     <p style={{ fontStyle: 'italic', fontSize: '.75rem' }}>*You may also see the town listed as Mashpee, 02649 on Google Maps.</p>
                     <h3 style={{ fontSize: '1.5rem' }}>To Cape Cod</h3>
-                    <p><a href='https://goo.gl/maps/t1xypZ83eU6fuJhb8'><span className='bold'>By Car</span>: 1 hour from Boston, MA, 3.5 hours from Albany, NY & 4.5 hours from New York City. </a></p>
-                    <p><span className='bold'>By Plane</span>: <a href='https://town.barnstable.ma.us/Airport/'>Cape Cod Gateway Airport (HYA)</a>, with service from Boston and New York City Airports or <a href='https://www.massport.com/logan-airport/'>Boston Logan International Airport (BOS)</a>.</p>
-                    <p><span className='bold'>By Train:</span> Amtrak to Boston South Station, <a href='https://capeflyer.com/'>CapeFLYER</a>to Hyannis (Runs through Sept 6 only).</p>
-                    <p><span className='bold'>Car Rentals:</span> <a href='https://www.carrentals.com/carsearch?dagv=1&subm=1&fdrp=0&rfrr=TG.LP.SrchWzd.Car&locn=Hyannis%2C+MA%2C+United+States+of+America+%28HYA-Barnstable+Municipal%29&loc2=Hyannis%2C+MA+%28HYA-Barnstable+Municipal%29&date1=09%2F03%2F2021&time1=1030AM&date2=09%2F05%2F2021&time2=1030AM&kind=1'>Car rental</a> available at Hyannis Airport.</p>
+                    <p><a href='https://goo.gl/maps/t1xypZ83eU6fuJhb8' target='_blank'><span className='bold'>By Car</span>: 1 hour from Boston, MA, 3.5 hours from Albany, NY & 4.5 hours from New York City. </a></p>
+                    <p><span className='bold'>By Plane</span>: <a href='https://town.barnstable.ma.us/Airport/' target='_blank'>Cape Cod Gateway Airport (HYA)</a>, with service from Boston and New York City Airports or <a href='https://www.massport.com/logan-airport/'>Boston Logan International Airport (BOS)</a>.</p>
+                    <p><span className='bold'>By Train:</span> Amtrak to Boston South Station, <a href='https://capeflyer.com/' target='_blank'>CapeFLYER</a> to Hyannis (Runs through Sept 6 only).</p>
+                    <p><span className='bold'>Car Rentals:</span> <a href='https://www.carrentals.com/carsearch?dagv=1&subm=1&fdrp=0&rfrr=TG.LP.SrchWzd.Car&locn=Hyannis%2C+MA%2C+United+States+of+America+%28HYA-Barnstable+Municipal%29&loc2=Hyannis%2C+MA+%28HYA-Barnstable+Municipal%29&date1=09%2F03%2F2021&time1=1030AM&date2=09%2F05%2F2021&time2=1030AM&kind=1' target='_blank'>Car rental</a> available at Hyannis Airport.</p>
                 </div>
                 <div style= {{ textAlign: 'center' }}>
                     <h3 style={{ fontSize: '2rem' }}>Parking</h3>

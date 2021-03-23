@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { PageHeader } from 'antd';
+import Sider from './Sider';
 
 const Header = () => {
 
@@ -13,7 +13,9 @@ const Header = () => {
         backgroundColor: 'black',
       }}
       title={ <h3 style={{ color: 'white' }}>The Wedding <span>at</span> Twenty Roos Road</h3> }
-      extra={[]}
+      extra={
+        <Sider/>
+      }
     ></PageHeader>
   );
 };

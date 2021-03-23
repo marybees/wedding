@@ -1,3 +1,4 @@
+import React from 'react';
 import './index.less';
 import {
   BrowserRouter as Router,
@@ -13,7 +14,6 @@ import Song from './Song';
 import Story from './Story';
 import Header from './Header';
 import Footer from './Footer';
-import React from 'react'
 
 function App() {
   return (

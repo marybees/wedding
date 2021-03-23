@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Row, Col, Card } from 'antd';
+import House from './black-and-white-house.jpg'
 
 function App() {
 
@@ -14,8 +15,8 @@ function App() {
     <div>
       <Row>
         <Col span={24} align='center'>
-            <div className='titleContainer'>
-              <h1 className='title'>Mary <span>and</span> Will</h1>
+            <div style={{ backgroundImage: `url(${House})`}} className='titleContainer'>
+              <h1 style={{ color: 'white' }} className='title'>Mary <span>and</span> Will</h1>
             </div>
         </Col>
       </Row>

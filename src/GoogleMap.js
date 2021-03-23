@@ -53,4 +53,4 @@ function GoogleMap(props) {
     )
 }
 
-export default GoogleApiWrapper({apiKey: 'AIzaSyChWJx4m3vny_sGGb54yD1FCKEkpicdMOo'})(GoogleMap);
+export default GoogleApiWrapper({apiKey: ''})(GoogleMap);

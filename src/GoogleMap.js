@@ -1,6 +1,5 @@
-import { Marker } from 'google-maps-react';
 import React, { useState } from 'react';
-import { Map, Marker, GoogleAPiWrapper, InfoWindow } from 'google-maps-react';
+import { Map, Marker, GoogleApiWrapper, InfoWindow } from 'google-maps-react';
 
 function GoogleMap(props) {
     const [infoWindow, setInfoWindow] = useState(false);
@@ -8,11 +7,11 @@ function GoogleMap(props) {
     const [selectedPlace, setSelectedPlace] = useState({});
 
     const style = {
-        height: '100%',
-        width: '100%'
+        height: '50%',
+        width: '50%',
     };
 
-    const coords = { lat: 10..3019, lng: -85.8411 };
+    const coords = { lat: 41.74788, lng: -70.45386 };
 
     let onMarkerClick = ((props, marker, e) => {
         setSelectedPlace(props)
@@ -30,11 +29,11 @@ function GoogleMap(props) {
     return (
         <div>
             <Map
-            google={props.google}
-            onClick={onMapClick}
-            zoom={15}
-            style={style}
-            initialCenter={coords}
+                google={props.google}
+                onClick={onMapClick}
+                zoom={15}
+                style={style}
+                initialCenter={coords}
             >
                 <Marker
                     onClick={onMarkerClick}
@@ -54,4 +53,4 @@ function GoogleMap(props) {
     )
 }
 
-export default GoogleAPiWrapper({apiKey: ''})(GoogleMap);
+export default GoogleApiWrapper({apiKey: 'AIzaSyChWJx4m3vny_sGGb54yD1FCKEkpicdMOo'})(GoogleMap);

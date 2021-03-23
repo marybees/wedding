@@ -9,6 +9,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
     "antd": "^4.14.0",
+    "antd-mobile": "^2.3.4",
     "craco-less": "^1.17.1",
     "google-maps-react": "^2.0.6",
     "react": "^17.0.1",

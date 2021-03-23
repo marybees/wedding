@@ -5,9 +5,9 @@ const Footer = () => {
   const { Footer } = Layout;
   return (
     <Footer style={{ textAlign: 'center', padding: '35px' }}>
-      <Link to='https://maryelizabethbaker.com'>maryelizabethbaker.com</Link> 
-      | Made with Love at 20 Roos Road |
-      <Link to='https://willwashburn.com'>willwashburn.com</Link>
+      <a href='https://maryelizabethbaker.com' target='blank'>maryelizabethbaker.com </a> 
+      | Made with Love at Twenty Roos Road |
+      <a href='https://willwashburn.com' target='blank'> willwashburn.com</a>
     </Footer>
   );
 };

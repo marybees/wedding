@@ -11,13 +11,15 @@ import Memory from './Memory';
 import Registry from './Registry';
 import Song from './Song';
 import Story from './Story';
-
+import Header from './Header';
+import Footer from './Footer';
 import React from 'react'
 
 function App() {
   return (
     <Router>
       <div>
+        <Header/>
         <Switch>
           <Route exact path='/'>
             <Home/>
@@ -47,6 +49,7 @@ function App() {
             <Story/>
           </Route>
         </Switch>
+        <Footer/>
       </div>
     </Router>
   )

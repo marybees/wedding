@@ -94,7 +94,7 @@ function Accommodation() {
                     }
                 >
                     <List.Item.Meta
-                    avatar={<Avatar src='' />}
+                    avatar={<Avatar src='https://34t9wx3d3efh36333w49fxon-wpengine.netdna-ssl.com/wp-content/uploads/2017/11/iStock-586054802-e1511279103860.jpg' />}
                     title={<a href={item.href}>{item.title}</a>}
                     description={item.description}
                     />

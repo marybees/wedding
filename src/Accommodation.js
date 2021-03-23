@@ -55,7 +55,7 @@ function Accommodation() {
         },
         {
             href: 'https://www.beachrealtycapecod.com/',
-            title:'House Rentals on Springhill and East Sandwich Beaches',
+            title:'Beach Realty: House Rentals on Springhill and East Sandwich Beaches',
             avatar: 'https://usm-feed-ccaimls.s3.amazonaws.com/35391b6b5948723e27e10d5a21d244d8-1-.jpg?1549986015',
             description: "Great option for families looking to stay longer. House rentals with Beach Realty are from Saturday to Saturday. Some rentals are within walking distance to our home.",
             content: 'Very few rentals available. Call (508) 233-2102 to learn more about your options. Shuttle transportation will not be provided, so an Uber/Lyft/Taxi to the wedding will be required.',

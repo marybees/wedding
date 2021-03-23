@@ -14,6 +14,8 @@ import Song from './Song';
 import Story from './Story';
 import Header from './Header';
 import Footer from './Footer';
+import Activities from './Activities';
+import Covid from './Covid';
 
 function App() {
   return (
@@ -43,10 +45,10 @@ function App() {
             <Story/>
           </Route>
           <Route path='/activities'>
-            <Story/>
+            <Activities/>
           </Route>
           <Route path='/covid-19'>
-            <Story/>
+            <Covid/>
           </Route>
         </Switch>
         <Footer/>

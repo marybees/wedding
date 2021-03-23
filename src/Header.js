@@ -1,6 +1,6 @@
 import React from 'react';
 import { PageHeader } from 'antd';
-import Sider from './Sider';
+import HamburgerMenu from './HamburgerMenu';
 
 const Header = () => {
 
@@ -14,7 +14,7 @@ const Header = () => {
       }}
       title={ <h3 style={{ color: 'white' }}>The Wedding <span>at</span> Twenty Roos Road</h3> }
       extra={
-        <Sider/>
+        <HamburgerMenu/>
       }
     ></PageHeader>
   );

@@ -13,7 +13,7 @@ const Header = () => {
         width: '100%',
         backgroundColor: 'black',
       }}
-      title={ <Link exact to='/'><h3 style={{ color: 'white' }}>The Wedding <span>at</span> Twenty Roos Road</h3></Link> }
+      title={ <Link exact to='/'><h3 style={{ color: 'white' }}>Mary <span>and</span> Will's Wedding</h3></Link> }
       extra={
         <HamburgerMenu/>
       }

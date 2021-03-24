@@ -33,7 +33,7 @@ function App() {
           <p>3:00 PM: Cocktail Hour</p>
           <p>5:00 PM: Dinner</p>
           <p>6:00 PM: Band</p>
-          <p>9:00 - 11:00 PM: DJ</p>
+          <p>9:00 - 10:00 PM: DJ</p>
         </Col>
         <Col className='eventDetails' sm={16} md={8}>
           <h2>Beach <span>and</span> Goodbyes</h2>

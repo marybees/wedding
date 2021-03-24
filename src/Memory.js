@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Row, Col } from 'antd';
+import { Image, Row, Col, Button } from 'antd';
 import ScubaPic from './scuba-diving.JPG'
 
 function Memory() {
@@ -16,7 +16,10 @@ function Memory() {
                 </Col>
             </Row>
             <h3 style={{ fontSize: '1.5rem'}}>Share your favorite memory with the bride and/or groom.</h3>
-            <p><a href='' target='_blank'>Upload a photo or video</a> for our wedding slideshow!</p>
+            <Button type="primary" size="large" href='https://www.dropbox.com/request/shHIMmkHiTEFPg8FD73j'>
+            Upload a photo or video
+    </Button>
+            <p>  for our wedding slideshow!</p>
         </div>
     )
 }

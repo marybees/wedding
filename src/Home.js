@@ -4,13 +4,6 @@ import House from './black-and-white-house.jpg'
 
 function App() {
 
-  const gridStyle = {
-    width: '50%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center'
-  };
-
   return (
     <div>
       <Row>
@@ -47,34 +40,34 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
           <Link to='/accommodation'><h2>Where <span>to</span> Stay</h2></Link>
           </Card.Grid>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
           <Link to='/directions'><h2>Getting There</h2></Link>
           </Card.Grid>
       </Row>
       <Row>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
           <Link to='/our-story'><h2>Our Story</h2></Link>
         </Card.Grid>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
           <Link to='/registry'><h2>Registry</h2></Link>
         </Card.Grid>
       </Row>
       <Row>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
           <Link to='/request-a-song'><h2>Request <span>a</span> Song</h2></Link>
         </Card.Grid>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
           <Link to='/share-a-memory'><h2>Share <span>a</span> Memory</h2></Link>
         </Card.Grid>
       </Row>
       <Row>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
           <Link to='/activities'><h2>Things <span>to</span> Do <span>on</span> Cape Cod</h2></Link>
         </Card.Grid>
-        <Card.Grid style={gridStyle} className='subtitle' span={12} align='center'>
+        <Card.Grid className='subtitle' span={12} align='center'>
             <Link to='/covid-19'><h2>COVID-19</h2></Link>
         </Card.Grid>
       </Row>

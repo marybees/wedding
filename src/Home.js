@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Row, Col, Card } from 'antd';
-import House from './black-and-white-house.jpg'
+import House from './black-and-white-house.jpg';
+import Couple from './mary-and-will.JPEG'
 
 function App() {
 
@@ -8,12 +9,14 @@ function App() {
     <div>
       <Row>
         <Col span={24} align='center'>
-            <div style={{ backgroundImage: `url(${House})`}} className='titleContainer'>
-              <h1 style={{ color: 'white' }} className='title'>Mary <span>and</span> Will</h1>
+        {/* style={{ backgroundImage: `url(${House})`}} */}
+            <div style={{ backgroundImage: `url("https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)`}} className='titleContainer'>
+              {/* style={{ color: 'white' }} */}
+              <h1 className='title'>Mary <span>and</span> Will</h1>
             </div>
         </Col>
       </Row>
-      <Row wrap={true}>
+      <Row className='eventDetailsContainer' wrap={true}>
         <Col className='eventDetails' sm={16} md={8}>
         <h2>Welcome Clambake</h2>
           <p style={{ fontStyle: 'italic' }}>- for out of town guests -</p>
@@ -40,37 +43,38 @@ function App() {
         </Col>
       </Row>
       <Row>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E8DDCD'}} className='subtitle' span={12} align='center'>
           <Link to='/accommodation'><h2>Where <span>to</span> Stay</h2></Link>
           </Card.Grid>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E3D9CA'}} className='subtitle' span={12} align='center'>
           <Link to='/directions'><h2>Getting There</h2></Link>
           </Card.Grid>
       </Row>
       <Row>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E9E2D7'}} className='subtitle' span={12} align='center'>
           <Link to='/our-story'><h2>Our Story</h2></Link>
         </Card.Grid>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E7DED4'}} className='subtitle' span={12} align='center'>
           <Link to='/registry'><h2>Registry</h2></Link>
         </Card.Grid>
       </Row>
       <Row>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E8DDCD'}} className='subtitle' span={12} align='center'>
           <Link to='/request-a-song'><h2>Request <span>a</span> Song</h2></Link>
         </Card.Grid>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E3D9CA'}} className='subtitle' span={12} align='center'>
           <Link to='/share-a-memory'><h2>Share <span>a</span> Memory</h2></Link>
         </Card.Grid>
       </Row>
       <Row>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E9E2D7'}} className='subtitle' span={12} align='center'>
           <Link to='/activities'><h2>Things <span>to</span> Do <span>on</span> Cape Cod</h2></Link>
         </Card.Grid>
-        <Card.Grid className='subtitle' span={12} align='center'>
+        <Card.Grid style={{ backgroundColor: '#E7DED4'}} className='subtitle' span={12} align='center'>
             <Link to='/covid-19'><h2>COVID-19</h2></Link>
         </Card.Grid>
       </Row>
+      <div style={{ backgroundImage: `url(${Couple})`}} className='bottomPhoto'></div>
     </div>
   );
 }

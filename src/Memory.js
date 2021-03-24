@@ -17,9 +17,9 @@ function Memory() {
                 </Col>
             </Row>
             <h3 style={{ fontSize: '1.5rem'}}>Share your favorite memory with the bride and/or groom.</h3>
-            <button style={{ border: 'none', backgroundColor: 'black', color: 'white', padding: '.5rem'}} href='https://www.dropbox.com/request/shHIMmkHiTEFPg8FD73j' target='_blank'>
+            <button style={{ border: 'none', backgroundColor: 'black', padding: '.5rem'}}><a style={{ color: 'white' }} href='https://www.dropbox.com/request/shHIMmkHiTEFPg8FD73j' target='_blank'>
                 <UploadOutlined /> Upload a photo or video
-            </button>
+            </a></button>
             <p style={{ paddingTop: '1rem' }}>for our wedding slideshow!</p>
         </div>
     )

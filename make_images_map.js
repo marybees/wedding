@@ -13,7 +13,7 @@ fs.readdir(directoryOfImages, function (err, data) {
   let imageMap = data.map((image) => {
     var dimensions = sizeOf(directoryOfImages + image);
     return {
-      src: "/images/" + image,
+      src: "https://d26vfj57l1h7c2.cloudfront.net/images/" + image,
       height:dimensions.height,
       width:dimensions.width
     };

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Image, Row, Col, Button } from 'antd';
 import { UploadOutlined } from '@ant-design/icons';
+import Scuba from './scuba-diving.JPG';
 
 function Memory() {
 
@@ -11,7 +12,7 @@ function Memory() {
                 <Col span={24} style={{ paddingBottom: '2rem'}}>
                     <Image
                     width={300}
-                    src='../public/scuba-diving.JPG'
+                    src={Scuba}
                     />
                 </Col>
             </Row>

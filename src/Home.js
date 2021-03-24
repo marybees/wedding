@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Row, Col } from 'antd';
+import House from './mary-and-will.JPEG';
 
 function App() {
 
@@ -7,9 +8,7 @@ function App() {
     <div>
       <Row>
         <Col span={24} align='center'>
-        {/* style={{ backgroundImage: `url(${House})`}} */}
             <div style={{ backgroundImage: `url("https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)`}} className='titleContainer'>
-              {/* style={{ color: 'white' }} */}
               <h1 className='title'>Mary <span>and</span> Will</h1>
             </div>
         </Col>
@@ -72,7 +71,7 @@ function App() {
             <Link to='/covid-19'><h2>COVID-19</h2></Link>
         </Col>
       </Row>
-      <div style={{ backgroundImage: `url('../public/mary-and-will.JPEG')`}} className='bottomPhoto'></div>
+      <div style={{ backgroundImage: `url(${House})`}} className='bottomPhoto'></div>
     </div>
   );
 }

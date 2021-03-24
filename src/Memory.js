@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Row, Col, Button } from 'antd';
+import { Image, Row, Col } from 'antd';
 import { UploadOutlined } from '@ant-design/icons';
 import Scuba from './scuba-diving.JPG';
 

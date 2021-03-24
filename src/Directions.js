@@ -1,8 +1,14 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import MapCard from './MapCard';
+import GoogleMap from './google-maps.png';
 
 function Directions() {
+
+    const GoogleMapIcon = () => (
+        <img src={GoogleMap} alt="Google Maps icon" length='15' width='15' style={{ margin: '0 .5rem .2rem 0'}}></img>
+    );
+
     return (
         <div style={{padding: '8rem 2rem 2rem 2rem'}}>
             <h1 className='pageTitle'>Getting There</h1>
@@ -11,7 +17,7 @@ function Directions() {
                 <div style={{ textAlign: 'center', paddingBottom: '2rem' }}>
                     <h3 style={{ fontSize: '2rem' }}>Directions</h3>
                     <h3 style={{ fontSize: '1.5rem' }}>To Venue</h3>
-                    <p>20 Roos Road, East Sandwich, MA 02537</p>
+                    <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p><GoogleMapIcon />20 Roos Road, East Sandwich, MA 02537</p></a>
                     <p style={{ fontStyle: 'italic', fontSize: '.75rem' }}>*You may also see the town listed as Mashpee, 02649 on Google Maps.</p>
                     <h3 style={{ fontSize: '1.5rem' }}>To Cape Cod</h3>
                     <p><span className='bold'>By Car</span>: 1 hour from Boston, MA, 3.5 hours from Albany, NY & 4.5 hours from New York City.</p>

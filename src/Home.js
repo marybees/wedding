@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom";
 import { Row, Col } from 'antd';
 import House from './mary-and-will.JPEG';
+import GoogleMap from './google-maps.png';
 
 function App() {
+
+  const GoogleMapIcon = () => (
+    <img src={GoogleMap} alt="Google Maps icon" length='15' width='15' style={{ margin: '0 .5rem .2rem 0'}}></img>
+  );
 
   return (
     <div>
@@ -18,14 +23,14 @@ function App() {
         <h2>Welcome Clambake</h2>
           <p style={{ fontStyle: 'italic' }}>- for out of town guests -</p>
           <p className='date'>Friday, September 3, 2021</p>
-          <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p>20 Roos Road, East Sandwich, MA 02537</p></a>
+          <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p><GoogleMapIcon />20 Roos Road, East Sandwich, MA 02537</p></a>
           <p>5:00 PM</p>
         </Col>
         <Col className='eventDetails' sm={16} md={8}>
           <h2>Wedding</h2>
           <p className='date'>Saturday, September 4, 2021</p>
           <p style={{ fontStyle: 'italic' }}>- Formal Dress, Lawn Footwear -</p>
-          <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p>20 Roos Road, East Sandwich, MA 02537</p></a>
+          <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p><GoogleMapIcon />20 Roos Road, East Sandwich, MA 02537</p></a>
           <p>2:00 PM: Ceremony</p>
           <p>3:00 PM: Cocktail Hour</p>
           <p>5:00 PM: Dinner</p>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Row, Col, Card } from 'antd';
-import House from './black-and-white-house.jpg';
+// import House from './black-and-white-house.jpg';
 import Couple from './mary-and-will.JPEG'
 
 function App() {

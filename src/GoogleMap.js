@@ -9,6 +9,7 @@ function GoogleMap(props) {
     const style = {
         height: '50%',
         width: '100%',
+        marginLeft:"-32px"
     };
 
     const coords = { lat: 41.74788, lng: -70.45386 };

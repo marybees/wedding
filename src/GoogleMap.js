@@ -3,8 +3,8 @@ import { Map, Marker, GoogleApiWrapper, InfoWindow } from 'google-maps-react';
 
 function GoogleMap(props) {
     const [infoWindow, setInfoWindow] = useState(false);
-    const [activeMarker, setActiveMarker] = useState({});
-    const [selectedPlace, setSelectedPlace] = useState({});
+    const [activeMarker, setActiveMarker] = useState();
+    const [selectedPlace, setSelectedPlace] = useState();
 
     const style = {
         height: '50%',
@@ -38,15 +38,17 @@ function GoogleMap(props) {
             >
                 <Marker
                     onClick={onMarkerClick}
-                    title={'The Wedding at Twenty Roos Road'}
+                    title={'The Wedding of Mary Baker and William Washburn at Twenty Roos Road'}
                     name={'No parking available.'}
                     position={coords}
                 />
-                <InfoWindow>
+                <InfoWindow
                     marker={activeMarker}
                     visible={infoWindow}
+                    >
                     <div>
-                        <h1>{selectedPlace.name}</h1>
+                        <h1>{selectedPlace?.title}</h1>
+                        <p>{selectedPlace?.name}</p>
                     </div>
                 </InfoWindow>
             </Map>

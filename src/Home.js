@@ -1,7 +1,5 @@
 import { Link } from "react-router-dom";
 import { Row, Col } from 'antd';
-// import House from './black-and-white-house.jpg';
-import Couple from './mary-and-will.JPEG'
 
 function App() {
 
@@ -74,7 +72,7 @@ function App() {
             <Link to='/covid-19'><h2>COVID-19</h2></Link>
         </Col>
       </Row>
-      <div style={{ backgroundImage: `url(${Couple})`}} className='bottomPhoto'></div>
+      <div style={{ backgroundImage: `url('../public/mary-and-will.JPEG')`}} className='bottomPhoto'></div>
     </div>
   );
 }

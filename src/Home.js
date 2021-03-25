@@ -46,7 +46,7 @@ function App() {
       </Row>
       <Row>
         <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitle' span={12} align='center'>
-          <Link to='/accommodation'><h2>Where <span>to</span> Stay</h2></Link>
+          <Link to='/accommodations'><h2>Where <span>to</span> Stay</h2></Link>
           </Col>
         <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitle' span={12} align='center'>
           <Link to='/directions'><h2>Getting There</h2></Link>

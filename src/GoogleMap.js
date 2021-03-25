@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Map, Marker, GoogleApiWrapper, InfoWindow } from 'google-maps-react';
 
-function GoogleMap(props) {
+const GoogleMap = (props) => {
     const [infoWindow, setInfoWindow] = useState(false);
     const [activeMarker, setActiveMarker] = useState({});
     const [selectedPlace, setSelectedPlace] = useState({});
@@ -37,7 +37,7 @@ function GoogleMap(props) {
             >
                 <Marker
                     onClick={onMarkerClick}
-                    title={'The Wedding at Twenty Roos Road'}
+                    title={"Mary & Will's Wedding"}
                     name={'No parking available.'}
                     position={coords}
                 />

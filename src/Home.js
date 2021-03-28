@@ -32,10 +32,10 @@ function App() {
           <p style={{ fontStyle: 'italic' }}>- Formal Dress, Lawn Footwear -</p>
           <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p><GoogleMapIcon />20 Roos Road, East Sandwich, MA 02537</p></a>
           <p>2:00 PM: Ceremony</p>
-          <p>3:00 PM: Cocktail Hour</p>
+          <p>3:00 PM: Cocktail Hour featuring <a href='https://www.allegrochamberplayers.com' target='blank'>Allegro Chambers Players</a></p>
           <p>5:00 PM: Dinner</p>
-          <p>6:00 PM: Band</p>
-          <p>9:00 - 10:00 PM: DJ</p>
+          <p>6:00 PM: <a href='https://www.worldpremierband.com/' target='blank'>World Premier Band</a></p>
+          <p>10:00: The Lost Tapes Radio Show DJ Set featuring DJ KJG & DJ Wash</p>
         </Col>
         <Col className='eventDetails' sm={16} md={8}>
           <h2>Beach <span>and</span> Goodbyes</h2>

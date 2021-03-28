@@ -26,6 +26,13 @@ function Activities() {
             content: "Summer boasts brilliant hydrangeas and dazzling daylilies!"
         },
         {
+            href: "http://www.thorntonburgess.org/",
+            title:"Green Briar Nature Center & Jam Kitchen",
+            avatar: "https://media-cdn.tripadvisor.com/media/photo-s/0b/f0/ac/88/home-and-museum.jpg",
+            description: "Green Briar's mission is to inspire reverence for wildlife and concern for the natural environment as taught in the writings of conservationist and naturalist Thornton W. Burgess.",
+            content: "This unique spot boasts beautiful gardens and nature trails, as well as a jam-making kitchen."
+        },
+        {
             href: "https://www.tripadvisor.com/Attractions-g41802-Activities-Sandwich_Cape_Cod_Massachusetts.html",
             title:"TripAdvisor's List of Things to Do in Sandwich",
             avatar: "https://wikitravel.org/upload/shared//thumb/e/e0/SandwichDexterMill.jpg/350px-SandwichDexterMill.jpg",

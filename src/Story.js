@@ -72,7 +72,7 @@ function Story() {
           ended up proposing with a picture of a sheep.
         </p>
         <img
-          src="proposal.png"
+          src="https://d26vfj57l1h7c2.cloudfront.net/proposal.png"
           style={{ width: "100%" }}
           alt="Will + Ewe + Mary + Me?"
         />

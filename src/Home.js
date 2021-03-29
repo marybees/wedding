@@ -40,6 +40,7 @@ function App() {
         <Col className='eventDetails' sm={16} md={8}>
           <h2>Beach <span>and</span> Goodbyes</h2>
           <p className='date'>Sunday, September 5, 2021</p>
+          <p style={{ fontStyle: 'italic' }}>- Bathing suits and Sunscreen -</p>
           <a href='https://www.google.com/maps/place/Sandy+Neck+Beach/@41.7389773,-70.3832071,17z/data=!3m1!4b1!4m5!3m4!1s0x89fb3577aac617a3:0xd50789a765c3e50d!8m2!3d41.7389773!4d-70.3810184' target='blank'><p><GoogleMapIcon />Sandy Neck Beach</p></a>
           <p>12:00 PM</p>
         </Col>

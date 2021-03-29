@@ -21,8 +21,8 @@ function App() {
       <Row className='eventDetailsContainer' wrap={true}>
         <Col className='eventDetails' sm={16} md={8}>
         <h2>Welcome Clambake</h2>
-          <p style={{ fontStyle: 'italic' }}>- for out of town guests -</p>
           <p className='date'>Friday, September 3, 2021</p>
+          <p style={{ fontStyle: 'italic' }}>- for out of town guests -</p>
           <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p><GoogleMapIcon />20 Roos Road, East Sandwich, MA 02537</p></a>
           <p>5:00 PM</p>
         </Col>

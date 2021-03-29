@@ -27,15 +27,15 @@ const HamburgerMenu = () => {
                 visible={visible}
                 style={{ fontFamily: 'Cinzel' }}
             >
-                <p style={{ fontFamily: 'Cinzel' }}><Link exact to='/'>Home</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/accommodations'>Where <span>to</span> Stay</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/directions'>Getting There</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/our-story'>Our Story</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/registry'>Registry</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/request-a-song'>Request <span>a</span> Song</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/share-a-memory'>Share <span>a</span> Memory</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/activities'>Things <span>to</span> Do</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link to='/covid-19'>COVID-19</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} exact to='/'>Home</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/accommodations'>Where <span>to</span> Stay</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/directions'>Getting There</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/our-story'>Our Story</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/registry'>Registry</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/request-a-song'>Request <span>a</span> Song</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/share-a-memory'>Share <span>a</span> Memory</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/activities'>Things <span>to</span> Do</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/covid-19'>COVID-19</Link></p>
             </Drawer>
         </div>
     );

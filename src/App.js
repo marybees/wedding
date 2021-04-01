@@ -17,6 +17,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Activities from './Activities';
 import Covid from './Covid';
+import images from "./images.json"
 
 export function ScrollToTop() {
   const { pathname } = useLocation();
@@ -24,6 +25,17 @@ export function ScrollToTop() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
+
+  /// Preload all the images on the our story page when the page loads
+  /// There are a lot of pictures, so it'd be nice to load those ahead of time
+  useEffect(() => {
+    images.forEach((image) => {
+      new Image().src = image.src;
+    });
+
+    /// Another that is on that page
+    new Image().src = "https://d26vfj57l1h7c2.cloudfront.net/proposal.png";
+  });
 
   return null;
 }

@@ -13,8 +13,8 @@ function App() {
     <div>
       <Row>
         <Col span={24} align='center'>
-            <div style={{ backgroundImage: `url("https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)`}} className='titleContainer'>
-              <h1 className='title'>Mary <span>and</span> Will</h1>
+            <div className='titleContainer' style={{ backgroundImage: `url('/welcome.jpeg')`}}>
+              <img src="/welcome.jpeg" className="welcome" alt="Mary and Will "/>
             </div>
         </Col>
       </Row>

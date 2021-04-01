@@ -13,8 +13,8 @@ function App() {
     <div>
       <Row>
         <Col span={24} align='center'>
-            <div className='titleContainer' style={{ backgroundImage: `url('/welcome.jpeg')`}}>
-              <img src="/welcome.jpeg" className="welcome" alt="Mary and Will "/>
+            <div className='titleContainer' style={{ backgroundImage: `url('https://d26vfj57l1h7c2.cloudfront.net/welcome.jpeg')`}}>
+              <img src="https://d26vfj57l1h7c2.cloudfront.net/welcome.jpeg" className="welcome" alt="Mary and Will "/>
             </div>
         </Col>
       </Row>

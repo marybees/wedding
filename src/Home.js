@@ -13,16 +13,16 @@ function App() {
     <div>
       <Row>
         <Col span={24} align='center'>
-            <div style={{ backgroundImage: `url("https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80)`}} className='titleContainer'>
-              <h1 className='title'>Mary <span>and</span> Will</h1>
+            <div className='titleContainer' style={{ backgroundImage: `url('https://d26vfj57l1h7c2.cloudfront.net/welcome.jpeg')`}}>
+              <img src="https://d26vfj57l1h7c2.cloudfront.net/welcome.jpeg" className="welcome" alt="Mary and Will "/>
             </div>
         </Col>
       </Row>
       <Row className='eventDetailsContainer' wrap={true}>
         <Col className='eventDetails' sm={16} md={8}>
         <h2>Welcome Clambake</h2>
-          <p style={{ fontStyle: 'italic' }}>- for out of town guests -</p>
           <p className='date'>Friday, September 3, 2021</p>
+          <p style={{ fontStyle: 'italic' }}>- for out of town guests -</p>
           <a href='https://www.google.com/maps/place/20+Roos+Rd,+Mashpee,+MA+02649/@41.7477327,-70.4565802,17z/data=!4m13!1m7!3m6!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!2s20+Roos+Rd,+Mashpee,+MA+02649!3b1!8m2!3d41.7477327!4d-70.4543915!3m4!1s0x89e4cb21dd21f7b9:0x72a40c7a07b75002!8m2!3d41.7477327!4d-70.4543915' target='blank'><p><GoogleMapIcon />20 Roos Road, East Sandwich, MA 02537</p></a>
           <p>5:00 PM</p>
         </Col>
@@ -40,6 +40,7 @@ function App() {
         <Col className='eventDetails' sm={16} md={8}>
           <h2>Beach <span>and</span> Goodbyes</h2>
           <p className='date'>Sunday, September 5, 2021</p>
+          <p style={{ fontStyle: 'italic' }}>- Bathing suits and Sunscreen -</p>
           <a href='https://www.google.com/maps/place/Sandy+Neck+Beach/@41.7389773,-70.3832071,17z/data=!3m1!4b1!4m5!3m4!1s0x89fb3577aac617a3:0xd50789a765c3e50d!8m2!3d41.7389773!4d-70.3810184' target='blank'><p><GoogleMapIcon />Sandy Neck Beach</p></a>
           <p>12:00 PM</p>
         </Col>

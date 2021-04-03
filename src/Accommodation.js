@@ -21,7 +21,7 @@ function Accommodation() {
         {
             href: 'https://www.sandwichlodge.com/',
             title:'Sandwich Lodge & Resort',
-            avatar: 'https://lh3.googleusercontent.com/proxy/1ScthQvUgHQlnjCMiqpjEft7TljvRN4BRlz3AKRTUKtFPk69CbCI7BnA3V8nApeAUIOkV6g0ToIu22fIepZ7St8P6xLGMVFx8z-cEIRt-DEFVDgTflOZAF-Dqg',
+            avatar: 'https://lh3.googleusercontent.com/proxy/yJkvaPmrlyxg88cJURQAT9iv2nMF--HwoDo0a0d6z9BWMOlISD_bOJjw_IjSwk3XiMu8OlT9eUphAe26PVJpyahqGNCBN229QXimnokeIphxurpHcxXJGpK3cg',
             description: "Great option for families, couples and singles. 8-minute drive to our home. Rates start at $149/night. Shuttle transportation provided to/from the wedding.",
             content: '10 king rooms blocked for the wedding from Sept 3-5 (Fri-Sun). Other options currently available, including efficiency suites and pet-friendly rooms! Reserve by phone (508) 888-2275 and mention "Baker-Washburn Wedding".',
         },

@@ -26,14 +26,14 @@ function Story() {
           to Costa Rica to see where it goes. It was all really quite typical.
         </p>
         <p>
-          The truth is we are so lucky to have found each other in the way that
+          The truth is, we are so lucky to have found each other in the way that
           we did. After (really) randomly winding up in Mexico on the same day,
           we immediately hit it off. Will was living in Playa Del Carmen and
           begged Mary to come back for a visit at the end of her birthday trip.
           She promised to come back only if he sent her a daily picture of him
           using his inhaler for his asthma he was refusing to use (first example
           of Mary being a good influence on Will?). After Will dutifully
-          followed through and Mary came back it was effectively all the good
+          followed through and Mary came back, it was effectively all the good
           parts of a cheesy romantic comedy (think laughter, long walks on the
           beach, gelato and a much anticipated first kiss underneath the Mexican
           stars). We decided to go visit Mary’s home in Costa Rica a week later.
@@ -42,7 +42,7 @@ function Story() {
           After blurring the line between first date and moving in together, we
           realized we truly never wanted to be apart from one another. So we
           booked flights to wherever the other person was going to be —
-          fortunately for us that meant we spent the next year chasing summer
+          fortunately for us, that meant we spent the next year chasing summer
           across the world. From Paris to Paros, we danced, scooted and jumped
           off cliffs together. It was (and continues to be) as great as it
           sounds.
@@ -78,14 +78,14 @@ function Story() {
         />
         <p>
           <strong>And it was perfect!</strong> The day we moved into our new
-          house Will tricked Mary into going to the grocery store alone because
+          house, Will tricked Mary into going to the grocery store alone because
           he had a "work emergency". He quickly setup a picnic in their empty
           living room and built a photo collage on the wall of all the places he
           <em> should</em> have proposed. The center piece of this collage was
           the riddle with the "Ewe" (a female sheep) above.
         </p>
         <p>
-          We laughed, cried tears of happiness and slept on the floor that
+          We laughed, cried tears of happiness, and slept on the floor that
           night. It was the best first night in our forever home we could have
           imagined.
         </p>

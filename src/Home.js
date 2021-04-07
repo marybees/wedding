@@ -35,7 +35,7 @@ function App() {
           <p>3:00 PM: Cocktail Hour featuring <a href='https://www.allegrochamberplayers.com' target='blank'>Allegro Chambers Players</a></p>
           <p>5:00 PM: Dinner</p>
           <p>6:00 PM: <a href='https://www.worldpremierband.com/' target='blank'>World Premier Band</a></p>
-          <p>10:00: The Lost Tapes Radio Show DJ Set featuring DJ KJG & DJ Wash</p>
+          <p>10:00 PM: The Lost Tapes Radio Show DJ Set featuring DJ KJG & DJ Wash</p>
         </Col>
         <Col className='eventDetails' sm={16} md={8}>
           <h2>Beach <span>and</span> Goodbyes</h2>

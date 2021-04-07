@@ -59,13 +59,6 @@ function Accommodation() {
             avatar: 'https://usm-feed-ccaimls.s3.amazonaws.com/35391b6b5948723e27e10d5a21d244d8-1-.jpg?1549986015',
             description: "Great option for families looking to stay longer. House rentals with Beach Realty are from Saturday to Saturday. Some rentals are within walking distance to our home.",
             content: 'Very few rentals available. Call (508) 233-2102 to learn more about your options. Shuttle transportation will not be provided, so an Uber/Lyft/Taxi to the wedding will be required.',
-        },
-        {
-            href: 'http://www.sandwichinnandsuites.com/',
-            title:'UNAVAILABLE - ROOM BLOCK FULL Sandwich Inn & Suites',
-            avatar: 'https://cf.bstatic.com/images/hotel/max1280x900/755/75557358.jpg',
-            description: "Great option for families, couples and singles. 8-minute drive to our home. Rates start at $164/night. Shuttle transportation provided to/from the wedding.",
-            content: '5 rooms booked for the wedding from Sept 3-5 (Fri-Sun), including 1 queen, 1 double, 1 king, and 2 studios perfect for guests with children. Reserve by emailing mary@twentyroosroad.com with your room preference.',
         }
     ]
 

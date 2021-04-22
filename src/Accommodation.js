@@ -26,13 +26,6 @@ function Accommodation() {
             content: '10 king rooms blocked for the wedding from Sept 3-5 (Fri-Sun). Other options currently available, including efficiency suites and pet-friendly rooms! Reserve by phone (508) 888-2275 and mention "Baker-Washburn Wedding".',
         },
         {
-            href: 'https://www.countryacresmotel.com/',
-            title:'Country Acres Motel',
-            avatar: 'https://capecodcanalmacoc.wliinc1.com/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=1638',
-            description: "Great option for families, couples and singles. 4-minute drive to our home. Rates start at $140/night. Shuttle transportation provided to/from the wedding.",
-            content: '9 rooms blocked from Sept 3-5 (Fri-Sun), including a deluxe double guest room, perfect for guests with children. Reserve by phone (888) 860-8650 and mention "Baker-Washburn Wedding".',
-        },
-        {
             href: 'https://www.danlwebsterinn.com/',
             title: "Dan'l Webster Inn & Spa",
             avatar: 'https://cf.bstatic.com/images/hotel/max1024x768/174/17442475.jpg',

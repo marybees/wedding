@@ -26,6 +26,13 @@ function Accommodation() {
             content: '10 king rooms blocked for the wedding from Sept 3-5 (Fri-Sun). Other options currently available, including efficiency suites and pet-friendly rooms! Reserve by phone (508) 888-2275 and mention "Baker-Washburn Wedding".',
         },
         {
+            href: 'https://www.tentrr.com/explore/Massachusetts/Spring-Hill-on-Cape-Cod-Cranberry-Farm/?start=&end=#gs.05qud7',
+            title:'Tentrr Glamping',
+            avatar: 'https://tentrrimg.imgix.net/1e29b721-5376-11e8-a65b-0a932d599b6f/783a6ead-7d6b-11e9-a483-0adc64bdfa55_SITE_PROFILE.jpeg?fit=crop&crop=focalpoint&fp-z=1&fp-y=0.5&fp-x=0.5&h=500&w=750&auto=format&ixlib=react-9.0.2&h=500&w=750&q=50&dpr=2',
+            description: "The owner of the cranberry bog next to our home offers glamping through Tentrr. $99/night. Walking distance to our house, so no transportation necessary.",
+            content: 'Book through Tentrr or contact Mary or Will to book direct. Note: Like many wooded areas, ticks and poison-ivy are prevalent.',
+        },
+        {
             href: 'https://www.danlwebsterinn.com/',
             title: "Dan'l Webster Inn & Spa",
             avatar: 'https://cf.bstatic.com/images/hotel/max1024x768/174/17442475.jpg',

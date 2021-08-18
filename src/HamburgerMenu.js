@@ -32,9 +32,10 @@ const HamburgerMenu = () => {
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/directions'>Getting There</Link></p>
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/our-story'>Our Story</Link></p>
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/registry'>Registry</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/request-a-song'>Request <span>a</span> Song</Link></p>
-                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/share-a-memory'>Share <span>a</span> Memory</Link></p>
+                {/* <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/request-a-song'>Request <span>a</span> Song</Link></p> */}
+                {/* <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/share-a-memory'>Share <span>a</span> Memory</Link></p> */}
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/activities'>Things <span>to</span> Do</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/food'>Where <span>to</span> Eat</Link></p>
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/covid-19'>COVID-19</Link></p>
             </Drawer>
         </div>

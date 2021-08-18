@@ -16,6 +16,7 @@ import Story from './Story';
 import Header from './Header';
 import Footer from './Footer';
 import Activities from './Activities';
+import Food from './Food';
 import Covid from './Covid';
 import images from "./images.json"
 
@@ -70,6 +71,9 @@ function App() {
           </Route>
           <Route path='/activities'>
             <Activities/>
+          </Route>
+          <Route path='/food'>
+            <Food/>
           </Route>
           <Route path='/covid-19'>
             <Covid/>

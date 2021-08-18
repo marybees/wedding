@@ -61,20 +61,20 @@ function App() {
           <Link to='/registry'><h2>Registry</h2></Link>
         </Col>
       </Row>
-      <Row>
+      {/* <Row>
         <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitle' span={12} align='center'>
           <Link to='/request-a-song'><h2>Request <span>a</span> Song</h2></Link>
         </Col>
         <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitle' span={12} align='center'>
           <Link to='/share-a-memory'><h2>Share <span>a</span> Memory</h2></Link>
         </Col>
-      </Row>
+      </Row> */}
       <Row>
         <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitle' span={12} align='center'>
-          <Link to='/activities'><h2>Things <span>to</span> Do <span>on</span> Cape Cod</h2></Link>
+          <Link to='/activities'><h2>Things <span>to</span> Do</h2></Link>
         </Col>
         <Col style={{ backgroundColor: '#E7DED4'}} className='subtitle' span={12} align='center'>
-            <Link to='/covid-19'><h2>COVID-19</h2></Link>
+            <Link to='/food'><h2>Where <span>to</span> Eat</h2></Link>
         </Col>
       </Row>
       <div style={{ backgroundImage: `url(${House})`}} className='bottomPhoto'></div>

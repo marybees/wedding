@@ -71,7 +71,7 @@ function Food() {
 
     return (
         <div style={{padding: '8rem 2rem 2rem 2rem'}}>
-            <h1 className='pageTitle'>Our <span>Fav</span> Local <span>Food</span> Spots</h1>
+            <h1 className='pageTitle'>Where <span>to</span> Eat</h1>
             <List
                 itemLayout="vertical"
                 size="large"

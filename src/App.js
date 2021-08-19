@@ -18,6 +18,7 @@ import Footer from './Footer';
 import Activities from './Activities';
 import Food from './Food';
 import Covid from './Covid';
+import Dayof from './Dayof';
 import images from "./images.json"
 
 export function ScrollToTop() {
@@ -77,6 +78,9 @@ function App() {
           </Route>
           <Route path='/covid-19'>
             <Covid/>
+          </Route>
+          <Route path='/dayof'>
+            <Dayof/>
           </Route>
         </Switch>
         <Footer/>

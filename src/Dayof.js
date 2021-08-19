@@ -18,8 +18,8 @@ function Dayof() {
             <Link to='/home'><TrophyOutlined /></Link>
             </Col>
             <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' span={12} align='center'>
-            <Link to='/seats'><h2>Find <span>Your</span> Seat</h2></Link>
-            <Link to='/seats'><UserOutlined /></Link>
+            <Link to='/seat'><h2>Find <span>Your</span> Seat</h2></Link>
+            <Link to='/seat'><UserOutlined /></Link>
             </Col>
         </Row>
         <Row>

@@ -33,7 +33,7 @@ function Seat() {
         </Row>
         <Row className='dayOf'>
             <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
-                <h3>Montreal, Canada</h2>
+                <h3>Montreal, Canada</h3>
                 <p>Maria Naggaga</p>
                 <p>Staci Makovich</p>
                 <p>Kevin Bartlett-Hallberg</p>
@@ -44,7 +44,7 @@ function Seat() {
                 <p>Hansaka Kumarasinghe</p>
             </Col>
             <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
-                <h2>Cape Town, South Africa</h2>
+                <h3>Cape Town, South Africa</h3>
                 <p>Kerry Baker</p>
                 <p>Trish Baker</p>
                 <p>Petra Baker</p>
@@ -56,7 +56,7 @@ function Seat() {
         </Row>
         <Row className='dayOf'>
             <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
-                <h2>New York, USA</h2>
+                <h3>New York, USA</h3>
                 <p>Erin Rodriguez</p>
                 <p>Mark Rodriguez</p>
                 <p>Michael Rodriguez</p>
@@ -67,7 +67,7 @@ function Seat() {
                 <p>Jenn Gaunt</p>
             </Col>
             <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
-                <h2>Paris, France</h2>
+                <h3>Paris, France</h3>
                 <p>Jeff Denney</p>
                 <p>Sandra Denney</p>
                 <p>Lisa Denney</p>
@@ -81,7 +81,7 @@ function Seat() {
         </Row>
         <Row className='dayOf'>
             <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
-                <h2>Cape Cod, USA</h2>
+                <h3>Cape Cod, USA</h3>
                 <p>Will Washburn</p>
                 <p>Mary Washburn</p>
                 <p>Ryan Baker</p>
@@ -92,7 +92,7 @@ function Seat() {
                 <p>Wesley Griffith</p>
             </Col>
             <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
-                <h2>Paros, Greece</h2>
+                <h3>Paros, Greece</h3>
                 <p>Sue Washburn</p>
                 <p>Rik Washburn</p>
                 <p>Ingrid Magnus</p>
@@ -105,7 +105,7 @@ function Seat() {
         </Row>
         <Row className='dayOf'>
             <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
-                <h2>Playa Grande, Costa Rica</h2>
+                <h3>Playa Grande, Costa Rica</h3>
                 <p>Tiana Souza</p>
                 <p>Mary Cleary</p>
                 <p>Bev Collins</p>
@@ -115,7 +115,7 @@ function Seat() {
                 <p>Jennifer Howard</p>
             </Col>
             <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12} align='center'>
-                <h2>Zambezi River, Zimbabwe</h2>
+                <h3>Zambezi River, Zimbabwe</h3>
                 <p>Brynn Legler</p>
                 <p>Kennedy Legler</p>
                 <p>Emmale Legler</p>
@@ -130,7 +130,7 @@ function Seat() {
         </Row>
         <Row className='dayOf'>
             <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' s={24} lg={12} align='center'>
-                <h2>Rio de Janeiro, Brazil</h2>
+                <h3>Rio de Janeiro, Brazil</h3>
                 <p>Donna Pignatelli</p>
                 <p>Joseph Pignatelli</p>
                 <p>Chris Merrick</p>
@@ -141,7 +141,7 @@ function Seat() {
                 <p>Donna Floeck</p>
             </Col>
             <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' s={24} lg={12} align='center'>
-                <h2>Playa del Carmen, Mexico</h2>
+                <h3>Playa del Carmen, Mexico</h3>
                 <p>Amanda Geiger</p>
                 <p>John Joiner</p>
                 <p>Nicole Cleary</p>
@@ -154,7 +154,7 @@ function Seat() {
         </Row>
         <Row className='dayOf'>
             <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
-                <h2>Split, Croatia</h2>
+                <h3>Split, Croatia</h3>
                 <p>John Axtell</p>
                 <p>Melissa Axtell</p>
                 <p>Dom Fung</p>
@@ -165,7 +165,7 @@ function Seat() {
                 <p>Talia Topiler</p>
             </Col>
             <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12} align='center'>
-                <h2>Rome, Italy</h2>
+                <h3>Rome, Italy</h3>
                 <p>Emilia Navarro</p>
                 <p>Sam Provenza</p>
                 <p>Frankie Nwfaili</p>

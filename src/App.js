@@ -20,6 +20,7 @@ import Food from './Food';
 import Covid from './Covid';
 import Dayof from './Dayof';
 import Seat from './Seat';
+import Shuttles from './Shuttles';
 import images from "./images.json"
 
 export function ScrollToTop() {
@@ -85,6 +86,9 @@ function App() {
           </Route>
           <Route path='/seat'>
             <Seat/>
+          </Route>
+          <Route path='/shuttles'>
+            <Shuttles/>
           </Route>
         </Switch>
         <Footer/>

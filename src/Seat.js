@@ -9,26 +9,474 @@ function Seat() {
 
     const guestList = [
         {
-            name: "David Morin",
-            table: 'Arenys de Mar, Spain',
-            dancingScore: 0
+          "name": "Maria Naggaga",
+          "table": "#3 Montreal, Canada, Seat #1"
         },
         {
-            name: "Letisha Morin",
-            table: 'Arenys de Mar, Spain',
-            dancingScore: 0
+          "name": "Mike Baker",
+          "table": "#6 Paris, France, Seat #8"
         },
         {
-            name: "Gary Sjolin",
-            table: 'Arenys de Mar, Spain',
-            dancingScore: 0
+          "name": "Marian Baker",
+          "table": "#6 Paris, France, Seat #7"
+        },
+        {
+          "name": "Noël Briand",
+          "table": "#6 Paris, France, Seat #9"
+        },
+        {
+          "name": "Donna Higgie",
+          "table": "#7 Cape Cod, USA, Seat #5"
+        },
+        {
+          "name": "Sima Melnikova",
+          "table": "#2 Bali, Indonesia, Seat #7"
+        },
+        {
+          "name": "Daniel Balaban",
+          "table": "#2 Bali, Indonesia, Seat #8"
+        },
+        {
+          "name": "Alex McKenzie",
+          "table": "#14 Rome, Italy, Seat #8"
+        },
+        {
+          "name": "Alex Topiler",
+          "table": "#13 Split, Croatia, Seat #7"
+        },
+        {
+          "name": "Talia Topiler",
+          "table": "#13 Split, Croatia, Seat #8"
+        },
+        {
+          "name": "Andres Barbaro",
+          "table": "#14 Rome, Italy, Seat #7"
+        },
+        {
+          "name": "David Morin",
+          "table": "#1 Arenys de Mar, Spain, Seat #2"
+        },
+        {
+          "name": "Letisha Morin",
+          "table": "#1 Arenys de Mar, Spain, Seat #1"
+        },
+        {
+          "name": "Erin Griffith",
+          "table": "#7 Cape Cod, USA, Seat #7"
+        },
+        {
+          "name": "Chris Griffith",
+          "table": "#7 Cape Cod, USA, Seat #6"
+        },
+        {
+          "name": "CJ Griffith",
+          "table": "#8 Paros, Greece, Seat #5"
+        },
+        {
+          "name": "Wesley Griffith",
+          "table": "#7 Cape Cod, USA, Seat #8"
+        },
+        {
+          "name": "Evelyn Cahoon",
+          "table": "#1 Arenys de Mar, Spain, Seat #5"
+        },
+        {
+          "name": "Brian Cahoon",
+          "table": "#1 Arenys de Mar, Spain, Seat #4"
+        },
+        {
+          "name": "Frankie Nwfaili",
+          "table": "#14 Rome, Italy, Seat #3"
+        },
+        {
+          "name": "Chidi Orji",
+          "table": "#14 Rome, Italy, Seat #4"
+        },
+        {
+          "name": "John Joiner",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #2"
+        },
+        {
+          "name": "Jon Denney",
+          "table": "#7 Cape Cod, USA, Seat #4"
+        },
+        {
+          "name": "KB Legler",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #4"
+        },
+        {
+          "name": "Brynn Legler",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #1"
+        },
+        {
+          "name": "Kennedy Legler",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #2"
+        },
+        {
+          "name": "Emmale Legler",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #3"
+        },
+        {
+          "name": "Melissa Axtell",
+          "table": "#13 Split, Croatia, Seat #2"
+        },
+        {
+          "name": "John Axtell",
+          "table": "#13 Split, Croatia, Seat #1"
+        },
+        {
+          "name": "Petra Baker",
+          "table": "#4 Cape Town, South Africa, Seat #3"
+        },
+        {
+          "name": "Ryan Baker",
+          "table": "#7 Cape Cod, USA, Seat #3"
+        },
+        {
+          "name": "Stephen Joiner",
+          "table": "#9 Playa Grande, Costa Rica, Seat #6"
+        },
+        {
+          "name": "Diane Joiner",
+          "table": "#9 Playa Grande, Costa Rica, Seat #7"
+        },
+        {
+          "name": "Tony Henriques",
+          "table": "#1 Arenys de Mar, Spain, Seat #9"
+        },
+        {
+          "name": "Lina Henriques",
+          "table": "#1 Arenys de Mar, Spain, Seat #10"
+        },
+        {
+          "name": "Bev Collins",
+          "table": "#9 Playa Grande, Costa Rica, Seat #4"
+        },
+        {
+          "name": "Leo Collins",
+          "table": "#9 Playa Grande, Costa Rica, Seat #5"
+        },
+        {
+          "name": "Cheryl Williams",
+          "table": "#1 Arenys de Mar, Spain, Seat #6"
+        },
+        {
+          "name": "Nat Williams",
+          "table": "#1 Arenys de Mar, Spain, Seat #7"
+        },
+        {
+          "name": "Chris Oakes",
+          "table": "#8 Paros, Greece, Seat #7"
+        },
+        {
+          "name": "LisaMarie Wands",
+          "table": "#8 Paros, Greece, Seat #8"
+        },
+        {
+          "name": "Daniel Maloney",
+          "table": "#13 Split, Croatia, Seat #6"
+        },
+        {
+          "name": "Erin Rodriguez",
+          "table": "#5 New York, USA, Seat #1"
+        },
+        {
+          "name": "Mark Rodriguez",
+          "table": "#5 New York, USA, Seat #2"
+        },
+        {
+          "name": "Michael Rodriguez",
+          "table": "#5 New York, USA, Seat #3"
+        },
+        {
+          "name": "James Rodriguez",
+          "table": "#5 New York, USA, Seat #4"
+        },
+        {
+          "name": "Gary Sjolin",
+          "table": "#1 Arenys de Mar, Spain, Seat #3"
+        },
+        {
+          "name": "Heather Jackson",
+          "table": "#3 Montreal, Canada, Seat #6"
+        },
+        {
+          "name": "Geoff Puley",
+          "table": "#3 Montreal, Canada, Seat #5"
+        },
+        {
+          "name": "Jenn Gaunt",
+          "table": "#5 New York, USA, Seat #8"
+        },
+        {
+          "name": "Simon Gaunt",
+          "table": "#5 New York, USA, Seat #7"
+        },
+        {
+          "name": "Oliver Gaunt",
+          "table": "#5 New York, USA, Seat #5"
+        },
+        {
+          "name": "Thatcher Gaunt",
+          "table": "#5 New York, USA, Seat #6"
+        },
+        {
+          "name": "Khaliq Gant",
+          "table": "#8 Paros, Greece, Seat #4"
+        },
+        {
+          "name": "Ingrid Magnus",
+          "table": "#8 Paros, Greece, Seat #3"
+        },
+        {
+          "name": "Luke Kingma",
+          "table": "#2 Bali, Indonesia, Seat #6"
+        },
+        {
+          "name": "Alison Entin",
+          "table": "#2 Bali, Indonesia, Seat #5"
+        },
+        {
+          "name": "Mary Cleary",
+          "table": "#9 Playa Grande, Costa Rica, Seat #3"
+        },
+        {
+          "name": "Adam Tucker",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #6"
+        },
+        {
+          "name": "Tiana Souza",
+          "table": "#9 Playa Grande, Costa Rica, Seat #2"
+        },
+        {
+          "name": "Janaya Tucker",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #4"
+        },
+        {
+          "name": "Kaya Tucker",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #5"
+        },
+        {
+          "name": "Jonas Souza",
+          "table": "#9 Playa Grande, Costa Rica, Seat #1"
+        },
+        {
+          "name": "Nicole Cleary",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #3"
+        },
+        {
+          "name": "Sam Provenza",
+          "table": "#14 Rome, Italy, Seat #2"
+        },
+        {
+          "name": "Sandra Denney",
+          "table": "#6 Paris, France, Seat #2"
+        },
+        {
+          "name": "Sarah Baker",
+          "table": "#6 Paris, France, Seat #5"
+        },
+        {
+          "name": "Scott Floeck",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #7"
+        },
+        {
+          "name": "Donna Floeck",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #8"
+        },
+        {
+          "name": "Danielle Floeck",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #6"
+        },
+        {
+          "name": "Staci Makovich",
+          "table": "#3 Montreal, Canada, Seat #2"
+        },
+        {
+          "name": "Sue Washburn",
+          "table": "#8 Paros, Greece, Seat #1"
+        },
+        {
+          "name": "Rik Washburn",
+          "table": "#8 Paros, Greece, Seat #2"
+        },
+        {
+          "name": "Trish Baker",
+          "table": "#4 Cape Town, South Africa, Seat #2"
+        },
+        {
+          "name": "Kerry Baker",
+          "table": "#4 Cape Town, South Africa, Seat #1"
+        },
+        {
+          "name": "Adam Oakes",
+          "table": "#8 Paros, Greece, Seat #6"
+        },
+        {
+          "name": "Ana Rivas",
+          "table": "#3 Montreal, Canada, Seat #7"
+        },
+        {
+          "name": "Hansaka Kumarasinghe",
+          "table": "#3 Montreal, Canada, Seat #8"
+        },
+        {
+          "name": "Carolyn Chrzan",
+          "table": "#1 Arenys de Mar, Spain, Seat #8"
+        },
+        {
+          "name": "Chris Merrick",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #3"
+        },
+        {
+          "name": "Emilia Navarro",
+          "table": "#14 Rome, Italy, Seat #1"
+        },
+        {
+          "name": "James Denney",
+          "table": "#4 Cape Town, South Africa, Seat #7"
+        },
+        {
+          "name": "Alex Denney",
+          "table": "#4 Cape Town, South Africa, Seat #8"
+        },
+        {
+          "name": "Jason Becknell",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #9"
+        },
+        {
+          "name": "Manal Becknell",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #10"
+        },
+        {
+          "name": "Jason Tarre",
+          "table": "#13 Split, Croatia, Seat #5"
+        },
+        {
+          "name": "Jeff Denney",
+          "table": "#6 Paris, France, Seat #1"
+        },
+        {
+          "name": "Jennifer Howard",
+          "table": "#9 Playa Grande, Costa Rica, Seat #8"
+        },
+        {
+          "name": "Jim Denney",
+          "table": "#4 Cape Town, South Africa, Seat #6"
+        },
+        {
+          "name": "Sue Denney",
+          "table": "#4 Cape Town, South Africa, Seat #5"
+        },
+        {
+          "name": "John Ryan",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #7"
+        },
+        {
+          "name": "Caleigh Ryan",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #6"
+        },
+        {
+          "name": "Joseph Pignatelli",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #2"
+        },
+        {
+          "name": "Donna Pignatelli",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #1"
+        },
+        {
+          "name": "Kevin Bartlett-Hallberg",
+          "table": "#3 Montreal, Canada, Seat #3"
+        },
+        {
+          "name": "Robbie Bartlett-Hallberg",
+          "table": "#3 Montreal, Canada, Seat #4"
+        },
+        {
+          "name": "Lisa Denney",
+          "table": "#6 Paris, France, Seat #3"
+        },
+        {
+          "name": "Ted Barnett",
+          "table": "#6 Paris, France, Seat #6"
+        },
+        {
+          "name": "Luke Hristou",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #5"
+        },
+        {
+          "name": "Marty Jones",
+          "table": "#14 Rome, Italy, Seat #6"
+        },
+        {
+          "name": "Julia Lamorelle",
+          "table": "#14 Rome, Italy, Seat #5"
+        },
+        {
+          "name": "Matt Joiner",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #8"
+        },
+        {
+          "name": "Gillian Wasner",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #7"
+        },
+        {
+          "name": "Matt Rapoport",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #8"
+        },
+        {
+          "name": "Megan Flynn",
+          "table": "#2 Bali, Indonesia, Seat #4"
+        },
+        {
+          "name": "Mike Berkowitz",
+          "table": "#2 Bali, Indonesia, Seat #3"
+        },
+        {
+          "name": "Melissa Papadimas",
+          "table": "#2 Bali, Indonesia, Seat #1"
+        },
+        {
+          "name": "Dennis Papadimas",
+          "table": "#2 Bali, Indonesia, Seat #2"
+        },
+        {
+          "name": "Paul Jump",
+          "table": "#10 Zambezi River, Zimbabwe, Seat #5"
+        },
+        {
+          "name": "Stephen Siu",
+          "table": "#13 Split, Croatia, Seat #4"
+        },
+        {
+          "name": "Dom Fung",
+          "table": "#13 Split, Croatia, Seat #3"
+        },
+        {
+          "name": "Travis Dempsey",
+          "table": "#11 Rio de Janeiro, Brazil, Seat #4"
+        },
+        {
+          "name": "Amanda Geiger",
+          "table": "#12 Playa Del Carmen, Mexico, Seat #1"
+        },
+        {
+            "name": "Mary Washburn",
+          "table": "Cape Cod, USA"
+        },
+        {
+            "name": "Will Washburn",
+          "table": "Cape Cod, USA"
+        },
+        {
+            "name": "Darren Baker",
+          "table": "Paris, France"
         },
     ]
 
     const filteredGuests = guestList.filter((guest) => {
         return guest.name.toLowerCase().includes(lookup.toLowerCase())
     })
-
 
     console.log({filteredGuests})
 
@@ -155,6 +603,7 @@ function Seat() {
                 <p>Stephen Joiner</p>
                 <p>Diane Joiner</p>
                 <p>Jennifer Howard</p>
+                <p>Jonas Souza</p>
             </Col>
             <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12} align='center'>
                 <h3>Zambezi River, Zimbabwe</h3>

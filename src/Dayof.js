@@ -13,11 +13,11 @@ function Dayof() {
     <div style={{paddingTop: '8rem'}}>
         <h1 className='pageTitle'>Welcome <span>to</span> Our Wedding</h1>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
             <Link to='/shuttles'><h2>Shuttles</h2></Link>
             <CalendarOutlined />
             </Col>
-            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
             <h2>Schedule</h2>
         <CalendarOutlined />
           <p style={{ marginTop: '2rem'}}>2:00 PM: Ceremony</p>
@@ -28,11 +28,11 @@ function Dayof() {
             </Col>
         </Row>
         <Row className='dayOf'>
-        <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+        <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
         <Link to='/home'><h2>Play <span>Cocktail Hour(s)</span></h2></Link>
             <Link to='/home'><TrophyOutlined /></Link>
         </Col>
-        <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+        <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
         <Link to='/seat'><h2>Find <span>Your</span> Seat</h2></Link>
         <Link to='/seat'><UserOutlined /></Link>
         </Col>

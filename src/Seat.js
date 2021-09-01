@@ -498,7 +498,7 @@ function Seat() {
         <p style={{ padding: '0 2rem', textAlign: 'center', fontStyle: 'italic', fontSize: '.75rem' }}>Don't be alarmed if you aren't seated at the same table as your date. Many tables are combined.</p>
         <p style={{ padding: '0 2rem 2rem 2rem', textAlign: 'center', fontStyle: 'italic', fontSize: '.75rem' }}>If your child does not have a seat and you would like one, please ask the wait staff for a chair after you are seated.</p>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
                 <h3>Arenys De Mar, Spain</h3>
                 <p>Letisha Morin</p>
                 <p>David Morin</p>
@@ -511,7 +511,7 @@ function Seat() {
                 <p>Tony Henriques</p>
                 <p>Lina Henriques</p>
             </Col>
-            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
+            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' xs={24} lg={12}  align='center'>
                 <h3>Bali, Indonesia</h3>
                 <p>Melissa Papadimas</p>
                 <p>Dennis Papadimas</p>
@@ -524,7 +524,7 @@ function Seat() {
             </Col>
         </Row>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
+            <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' xs={24} lg={12}  align='center'>
                 <h3>Montreal, Canada</h3>
                 <p>Maria Naggaga</p>
                 <p>Staci Makovich</p>
@@ -535,7 +535,7 @@ function Seat() {
                 <p>Ana Rivas</p>
                 <p>Hansaka Kumarasinghe</p>
             </Col>
-            <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
+            <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' xs={24} lg={12}  align='center'>
                 <h3>Cape Town, South Africa</h3>
                 <p>Kerry Baker</p>
                 <p>Trish Baker</p>
@@ -547,7 +547,7 @@ function Seat() {
             </Col>
         </Row>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
+            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' xs={24} lg={12}  align='center'>
                 <h3>New York, USA</h3>
                 <p>Erin Rodriguez</p>
                 <p>Mark Rodriguez</p>
@@ -558,7 +558,7 @@ function Seat() {
                 <p>Simon Gaunt</p>
                 <p>Jenn Gaunt</p>
             </Col>
-            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
+            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' xs={24} lg={12}  align='center'>
                 <h3>Paris, France</h3>
                 <p>Jeff Denney</p>
                 <p>Sandra Denney</p>
@@ -572,7 +572,7 @@ function Seat() {
             </Col>
         </Row>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
+            <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' xs={24} lg={12}  align='center'>
                 <h3>Cape Cod, USA</h3>
                 <p>Will Washburn</p>
                 <p>Mary Washburn</p>
@@ -583,7 +583,7 @@ function Seat() {
                 <p>Erin Griffith</p>
                 <p>Wesley Griffith</p>
             </Col>
-            <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' s={24} lg={12}  align='center'>
+            <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' xs={24} lg={12}  align='center'>
                 <h3>Paros, Greece</h3>
                 <p>Sue Washburn</p>
                 <p>Rik Washburn</p>
@@ -596,7 +596,7 @@ function Seat() {
             </Col>
         </Row>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
                 <h3>Playa Grande, Costa Rica</h3>
                 <p>Tiana Souza</p>
                 <p>Mary Cleary</p>
@@ -607,7 +607,7 @@ function Seat() {
                 <p>Jennifer Howard</p>
                 <p>Jonas Souza</p>
             </Col>
-            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
                 <h3>Zambezi River, Zimbabwe</h3>
                 <p>Brynn Legler</p>
                 <p>Kennedy Legler</p>
@@ -622,7 +622,7 @@ function Seat() {
             </Col>
         </Row>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
                 <h3>Rio de Janeiro, Brazil</h3>
                 <p>Donna Pignatelli</p>
                 <p>Joseph Pignatelli</p>
@@ -633,7 +633,7 @@ function Seat() {
                 <p>Scott Floeck</p>
                 <p>Donna Floeck</p>
             </Col>
-            <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
                 <h3>Playa del Carmen, Mexico</h3>
                 <p>Amanda Geiger</p>
                 <p>John Joiner</p>
@@ -646,7 +646,7 @@ function Seat() {
             </Col>
         </Row>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
                 <h3>Split, Croatia</h3>
                 <p>John Axtell</p>
                 <p>Melissa Axtell</p>
@@ -657,7 +657,7 @@ function Seat() {
                 <p>Alex Topiler</p>
                 <p>Talia Topiler</p>
             </Col>
-            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E3D9CA'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
                 <h3>Rome, Italy</h3>
                 <p>Emilia Navarro</p>
                 <p>Sam Provenza</p>

@@ -495,8 +495,10 @@ function Seat() {
             </Col>
             <Col span={6} />
         </Row>
+        <p style={{ padding: '0 2rem', textAlign: 'center', fontStyle: 'italic', fontSize: '.75rem' }}>Don't be alarmed if you aren't seated at the same table as your date. Many tables are combined.</p>
+        <p style={{ padding: '0 2rem 2rem 2rem', textAlign: 'center', fontStyle: 'italic', fontSize: '.75rem' }}>If your child does not have a seat and you would like one, please ask the wait staff for a chair after you are seated.</p>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E8DDCD', paddingTop: '5rem'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
                 <h3>Arenys De Mar, Spain</h3>
                 <p>Letisha Morin</p>
                 <p>David Morin</p>
@@ -591,7 +593,7 @@ function Seat() {
                 <p>Adam Oakes</p>
                 <p>Chris Oakes</p>
                 <p>LisaMarie Wands</p>
-=            </Col>
+            </Col>
         </Row>
         <Row className='dayOf'>
             <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>

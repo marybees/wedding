@@ -488,7 +488,7 @@ function Seat() {
             <Col span={12}>
                 <Search placeholder="Search for your name" onChange={e => setLookup(e.target.value)} />
                 {lookup && (filteredGuests.map((guest, index) => (
-                    <p key={index}>{guest.name}:
+                    <p style={{ paddingTop: '2rem' }} key={index}>{guest.name}:
                     <br/>
                     Table: {guest.table}</p>
                 )))}
@@ -496,7 +496,7 @@ function Seat() {
             <Col span={6} />
         </Row>
         <Row className='dayOf'>
-            <Col style={{ backgroundColor: '#E8DDCD'}} className='subtitleDayOf' s={24} lg={12} align='center'>
+            <Col style={{ backgroundColor: '#E8DDCD', paddingTop: '5rem'}} className='subtitleDayOf' s={24} lg={12} align='center'>
                 <h3>Arenys De Mar, Spain</h3>
                 <p>Letisha Morin</p>
                 <p>David Morin</p>

@@ -28,6 +28,9 @@ const HamburgerMenu = () => {
                 style={{ fontFamily: 'Cinzel' }}
             >
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} exact to='/'>Home</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} exact to='/shuttles'>Shutttles</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} exact to='/seat'>Find Your Seat</Link></p>
+                <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} exact to='/dayof'>Day Of</Link></p>
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/accommodations'>Where <span>to</span> Stay</Link></p>
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/directions'>Getting There</Link></p>
                 <p style={{ fontFamily: 'Cinzel' }}><Link onClick={onClose} to='/our-story'>Our Story</Link></p>

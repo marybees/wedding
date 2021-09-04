@@ -52,7 +52,7 @@ function App() {
         <Header/>
         <Switch>
           <Route exact path='/'>
-            <Home/>
+            <Dayof/>
           </Route>
           <Route path='/accommodations'>
             <Accommodation/>

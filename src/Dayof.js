@@ -30,7 +30,9 @@ function Dayof() {
         <Row className='dayOf'>
         <Col style={{ backgroundColor: '#E9E2D7'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
         <a href='https://cocktailhour.vercel.app'><h2>Play <span>Cocktail Hour(s)</span></h2></a>
-            <Link to='/home'><TrophyOutlined /></Link>
+        <Link to='/home'><TrophyOutlined /></Link>
+        <a href='https://cocktailhour.vercel.app/leaderboard'><h2>View the Leader Board</h2></a>
+
         </Col>
         <Col style={{ backgroundColor: '#E7DED4'}} className='subtitleDayOf' xs={24} lg={12} align='center'>
         <Link to='/seat'><h2>Find <span>Your</span> Seat</h2></Link>

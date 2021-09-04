@@ -28,10 +28,7 @@ function Directions() {
                 </div>
                 <div style= {{ textAlign: 'center' }}>
                     <h3 style={{ fontSize: '2rem' }}>Parking</h3>
-                    <p style={{ fontWeight: 'bold' }}>Please note that there will be no parking spaces available at the wedding or clambake.</p>
-                    <p>Shuttles have been arranged to transport guests to the venue. Details will be updated here as the wedding date approaches and you will also be informed when you check into your hotel.</p>
-                    <p>If you're not staying at a hotel listed on the <Link to='/accommodations'>Where to Stay</Link> page, you will be responsible for getting an Uber/Lyft/taxi. Please account for heavy Labor Day traffic and plan accordingly.</p>
-                    <p>For those with impaired mobility, please arrange special transportation with us by August 1st at <a href = "mailto: mary@twentyroosroad.com">mary@twentyroosroad.com</a>.</p>
+                    <p>School buses have been arranged to transport guests to the venue. Limited parking is also available at the venue if you prefer to drive.</p>
                 </div>
             </div>
         </div>
